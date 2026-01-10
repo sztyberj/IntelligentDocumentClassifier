@@ -1,0 +1,6 @@
+isap_docs
+.vscode
+__*
+checkpoints
+todo.md
+configs/models_params.yml

@@ -1,0 +1,11 @@
+api:
+  base_api_url: 'https://api.sejm.gov.pl/eli'
+  publisher: ['DU', 'MP']
+  output_dir: './isap_docs'
+  concurrency_limit: 10
+  start_year: 1989
+  end_year: 1990
+
+ocr:
+  page_limit: 6
+  min_words: 50
