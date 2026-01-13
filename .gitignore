@@ -9,3 +9,5 @@ venv/
 __pycache__/
 src/classification
 raw_data.jsonl
+.ipynb_checkpoints
+train.py
