@@ -2,5 +2,10 @@ isap_docs
 .vscode
 __*
 checkpoints
-todo.md
 configs/models_params.yml
+.env
+.venv/
+venv/
+__pycache__/
+src/classification
+raw_data.jsonl

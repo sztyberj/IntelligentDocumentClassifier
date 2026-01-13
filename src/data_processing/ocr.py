@@ -54,7 +54,7 @@ class OCR:
                 for i in indices:
                     page = doc.load_page(i)
                     pix = page.get_pixmap(matrix=fitz.Matrix(2,2))
-                    img = Image.frombytes("RGB", [pix.witdh, pix.height], pix.samples)
+                    img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
                 
                     ocr_parts.append(pytesseract.image_to_string(img, lang="pol"))
 
